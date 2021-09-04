@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title>JS Numbers</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title">
+                    Math Functions!
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="random">
+                    Click to generate a random button.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="button_random">
+                    <button onclick="getRandom()" id="random">Random</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+			<div class="col-12">
+				<input id="userInput" type="number" placeholder="Enter a number">
+            </div>
+            <div class="col">
+                <button id="start" onclick="numberOperation()"> Go!</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="output1"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="output2"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="option1">
+                    Do you want to add or subtract?
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="add" onclick="Add()"> Add </button>
+            </div>
+            <div class="col">
+                <button id="add" onclick="Subtract()"> Subtract </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="output3"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="round" onclick="Round()"> Round-off</button>
+                <button id= "ceil" onclick= "Ceil()">Ceil value</button>
+                <button id= "floor" onclick= "Floor()">Floor value</button>
+                <button id= "square" onclick= "Square()">Square</button>
+                <button id= "sqrt" onclick= "Sqrt()"> Square-root</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="output4"></div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

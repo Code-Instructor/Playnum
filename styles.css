@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    background: rgb(12, 3, 51);
+    color: white;
+    font-size: x-large;
+}
+
+.title{
+    margin: 3%;
+    font-size: xxx-large;
+}
+
+.random{
+    margin: 2%;
+}
+
+#userInput{
+    width: 15vw;
+    height: 2vw;
+    font-size: large;
+    border-radius: 10px;
+}
+
+button{
+    margin: 2%;
+    width: 8vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+#add{
+    margin: 1%;
+}
+
+#subtract{
+    margin: 1%;
+}
